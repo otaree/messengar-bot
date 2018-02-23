@@ -4,12 +4,15 @@
   "description": "A facebook messanger bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "otaree",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "8.x"
   }
 }
